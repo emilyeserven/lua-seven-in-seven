@@ -7,11 +7,10 @@ function check_if_prime(num)
     for i = 1, (num - 1) do
         prime_check = num % i
         if prime_check == 0 and i ~= 1 then
-            is_prime = true
             print("NOT prime!")
         end
     end
-    if is_prime == false then
+    if is_prime == true then
         print("Prime!")
     end
 end
