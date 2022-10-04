@@ -8,6 +8,7 @@ function check_if_prime(num)
         prime_check = num % i
         if prime_check == 0 and i ~= 1 then
             print("NOT prime!")
+            -- TODO: Have it list out factors.
         end
     end
     if is_prime == true then
